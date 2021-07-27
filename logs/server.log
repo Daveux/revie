@@ -359,3 +359,5 @@ info: Jul-27-2021 14:55:34: 	This is the body of this request {"comment":"I'm in
 info: Jul-27-2021 14:55:34: 	This is the query of this request {}
 info: Jul-27-2021 14:55:34: 	200 - Review Added. Username: rexiel [object Object]
 info: Jul-27-2021 14:58:23: 	200 - Helpful count increased. Username: undefined
+info: Jul-27-2021 15:14:37: 	Logger successfully connected
+error: Jul-27-2021 15:14:38: 	Database connection failed - MongoParseError: Invalid connection string
