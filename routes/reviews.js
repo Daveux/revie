@@ -92,7 +92,7 @@ router.put("/reviewHelpful", async (req, res) => {
         })
         .then(() => {
             logger.info(`200 - Helpful count increased. Username: ${req.body.username}`);
-            return res.status(200).json({msg: "Ok"});
+            return res.status(200).json({status: 200, msg: "Ok"});
         })
         .catch((err) => {
             logger.error(`500 - Helpful count not increased. Username: ${req.body.username}`);

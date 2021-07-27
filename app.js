@@ -59,6 +59,8 @@ app.use(async (req, res, next) => {
       req.url === "/addReview" ||
       req.url === "/login" ||
       req.url === "/register" ||
+      req.url === "/sortByDate" ||
+      req.url === "/sortByHelpful" ||
       req.url === "/getAllUsers"
   ) {
     return next();

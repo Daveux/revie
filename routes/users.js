@@ -36,7 +36,7 @@ passport.deserializeUser(User.deserializeUser());
 
 /* GET users listing. */
 router.get('/getAllUsers', async function(req, res) {
-    await User.find()
+    await User.find().populate('review')
         .then(users => {
             return res.status(200).json({ status: 200, msg: users });
         })
@@ -49,8 +49,11 @@ router.post(
     "/register",
     async (req, res, next) => {
 
-        await Review.create({
-            _id: req.body.user.reviewId,
+
+    },
+    async (req, res, next) => {
+        let review =  await Review.create({
+            _id: new mongoose.Types.ObjectId(),
             video: ""
 
         })
@@ -60,27 +63,24 @@ router.post(
             .catch(() => {
                 logger.error(`500 - Could not create review. `);
             })
-
-      const { status, msg } = await authentication.createJWT({
-        username: req.body.user.username,
-        reviewId: req.body.user.reviewId
-      });
-      if (status === 200) {
-        res.locals = msg;
-        next();
-      } else {
-        return next({ status: 500, msg: "Bad" });
-      }
-    },
-    async (req, res) => {
       logger.info(`User to be registered - ${JSON.stringify(req.body.user)}. Username: ${req.body.user.username}`);
+        const { status, msg } = await authentication.createJWT({
+            username: req.body.user.username,
+            reviewId: review._id
+        });
+        if (status === 200) {
+            res.locals = msg;
+            next();
+        } else {
+            return next({ status: 500, msg: "Bad" });
+        }
       await User.register(
           new User({
             firstName: req.body.user.firstName,
             lastName: req.body.user.lastName,
             username: req.body.user.username,
             email: req.body.user.email,
-            reviewId: req.body.user.reviewId
+            review: review._id
           }),
           req.body.user.password,
           (err, user) => {

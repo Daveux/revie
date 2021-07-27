@@ -21,7 +21,7 @@ const userSchema = new Schema({
     password: {
         type: String,
     },
-    reviewId: {
+    review: {
         type: Schema.Types.ObjectId,
         ref: 'reviews'
     }
