@@ -1,0 +1,22 @@
+{
+  "name": "revie",
+  "version": "0.0.0",
+  "description": "BackEnd for Revie App",
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV=production forever app.js",
+    "serve": "nodemon server.js"
+  },
+  "author": "David Odeyinka",
+  "dependencies": {
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.3",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.1.0",
+    "winston": "^3.3.3"
+  }
+}

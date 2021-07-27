@@ -1,0 +1,256 @@
+info: Jul-27-2021 09:18:37: 	Logger successfully connected
+info: Jul-27-2021 09:18:41: 	Database connection successful
+info: Jul-27-2021 09:18:41: 	Server Started on port 8000
+info: Jul-27-2021 09:25:18: 	Logger successfully connected
+info: Jul-27-2021 09:25:37: 	Database connection successful
+info: Jul-27-2021 09:25:37: 	Server Started on port 8000
+info: Jul-27-2021 09:26:15: 	Logger successfully connected
+info: Jul-27-2021 09:26:18: 	Database connection successful
+info: Jul-27-2021 09:26:18: 	Server Started on port 8000
+info: Jul-27-2021 09:27:15: 	Logger successfully connected
+info: Jul-27-2021 09:27:26: 	Database connection successful
+info: Jul-27-2021 09:27:26: 	Server Started on port 8000
+info: Jul-27-2021 09:28:50: 	Logger successfully connected
+info: Jul-27-2021 09:29:08: 	Database connection successful
+info: Jul-27-2021 09:29:08: 	Server Started on port 8000
+info: Jul-27-2021 09:32:23: 	User to be registered - {"firstName":"John","lastName":"Doe","username":"jDoe","password":"test","email":"johndoe@gmail.com","reviewId":"41224d776a326fb40f000003"}. Username: jDoe
+info: Jul-27-2021 09:32:24: 	200 - User registered successfully. Username: undefined
+info: Jul-27-2021 09:33:10: 	Logger successfully connected
+info: Jul-27-2021 09:33:23: 	Database connection successful
+info: Jul-27-2021 09:33:23: 	Server Started on port 8000
+info: Jul-27-2021 09:36:08: 	Logger successfully connected
+info: Jul-27-2021 09:36:28: 	Database connection successful
+info: Jul-27-2021 09:36:28: 	Server Started on port 8000
+info: Jul-27-2021 09:38:54: 	Logger successfully connected
+info: Jul-27-2021 09:38:58: 	Database connection successful
+info: Jul-27-2021 09:38:58: 	Server Started on port 8000
+info: Jul-27-2021 09:41:13: 	Logger successfully connected
+info: Jul-27-2021 09:41:30: 	Database connection successful
+info: Jul-27-2021 09:41:30: 	Server Started on port 8000
+info: Jul-27-2021 09:41:49: 	200 - Review created successfully.}
+info: Jul-27-2021 09:41:49: 	User to be registered - {"firstName":"John","lastName":"Doe","username":"jDoe","password":"test","email":"johndoe@gmail.com","reviewId":"41224d776a326fb40f000003"}. Username: jDoe
+info: Jul-27-2021 09:41:50: 	200 - User registered successfully. Username: jDoe
+info: Jul-27-2021 09:42:43: 	Logger successfully connected
+info: Jul-27-2021 09:42:54: 	Database connection successful
+info: Jul-27-2021 09:42:54: 	Server Started on port 8000
+info: Jul-27-2021 09:46:52: 	Logger successfully connected
+info: Jul-27-2021 09:46:56: 	Database connection successful
+info: Jul-27-2021 09:46:56: 	Server Started on port 8000
+error: Jul-27-2021 09:49:05: 	401 - Wrong username or password. Username: jDOe 
+info: Jul-27-2021 09:49:19: 	200 - You are Logged In!. Username: jDoe
+info: Jul-27-2021 09:50:44: 	Logged Out!. Username: undefined
+info: Jul-27-2021 09:54:40: 	Logger successfully connected
+info: Jul-27-2021 09:54:41: 	Logger successfully connected
+info: Jul-27-2021 09:54:45: 	Database connection successful
+info: Jul-27-2021 09:54:45: 	Server Started on port 8000
+info: Jul-27-2021 09:55:14: 	Logger successfully connected
+info: Jul-27-2021 09:55:21: 	Database connection successful
+info: Jul-27-2021 09:55:21: 	Server Started on port 8000
+error: Jul-27-2021 09:55:28: 	undefined: 403 Unauthorised
+info: Jul-27-2021 09:59:23: 	Logger successfully connected
+info: Jul-27-2021 09:59:26: 	Database connection successful
+info: Jul-27-2021 09:59:26: 	Server Started on port 8000
+error: Jul-27-2021 09:59:36: 	undefined: 403 Unauthorised
+info: Jul-27-2021 10:01:05: 	Logger successfully connected
+info: Jul-27-2021 10:01:24: 	Database connection successful
+info: Jul-27-2021 10:01:24: 	Server Started on port 8000
+info: Jul-27-2021 10:02:16: 	Logger successfully connected
+info: Jul-27-2021 10:02:34: 	Database connection successful
+info: Jul-27-2021 10:02:34: 	Server Started on port 8000
+info: Jul-27-2021 10:07:07: 	User: undefined  - Email: undefined, URL: /addReview/?reviewId=41224d776a326fb40f000003, IP: ::1 
+info: Jul-27-2021 10:07:07: 	This is the body of this request {"0":"M","1":"a","2":"l","3":"f","4":"o","5":"r","6":"m","7":"e","8":"d","9":" ","10":"P","11":"a","12":"y","13":"l","14":"o","15":"a","16":"d","comment":"I really love the apartment!","image":"https://apartmentimage.com","video":"https://apartmentvideo.com"}
+info: Jul-27-2021 10:07:07: 	This is the query of this request {"reviewId":"41224d776a326fb40f000003"}
+info: Jul-27-2021 10:14:22: 	Logger successfully connected
+info: Jul-27-2021 10:14:26: 	Database connection successful
+info: Jul-27-2021 10:14:26: 	Server Started on port 8000
+info: Jul-27-2021 10:14:56: 	User: jDoe  - Email: undefined, URL: /addReview/?reviewId=41224d776a326fb40f000003, IP: ::1 
+info: Jul-27-2021 10:14:56: 	This is the body of this request {"comment":"I really love the apartment!","image":["https://apartmentimage.com"],"video":"https://apartmentvideo.com","username":"jDoe","reviewId":"41224d776a326fb40f000003","iat":1627375759,"exp":1627462159}
+info: Jul-27-2021 10:14:56: 	This is the query of this request {"reviewId":"41224d776a326fb40f000003"}
+info: Jul-27-2021 10:16:24: 	Logger successfully connected
+info: Jul-27-2021 10:16:32: 	Database connection successful
+info: Jul-27-2021 10:16:32: 	Server Started on port 8000
+info: Jul-27-2021 10:17:49: 	Logger successfully connected
+info: Jul-27-2021 10:18:09: 	Database connection successful
+info: Jul-27-2021 10:18:09: 	Server Started on port 8000
+info: Jul-27-2021 10:18:55: 	Logger successfully connected
+info: Jul-27-2021 10:19:12: 	Database connection successful
+info: Jul-27-2021 10:19:12: 	Server Started on port 8000
+info: Jul-27-2021 10:19:28: 	User: jDoe  - Email: undefined, URL: /addReview/?reviewId=41224d776a326fb40f000003, IP: ::1 
+info: Jul-27-2021 10:19:28: 	This is the body of this request {"comment":"I really love the apartment!","images":["https://apartmentimage.com"],"video":"https://apartmentvideo.com","username":"jDoe","reviewId":"41224d776a326fb40f000003","iat":1627375759,"exp":1627462159}
+info: Jul-27-2021 10:19:28: 	This is the query of this request {"reviewId":"41224d776a326fb40f000003"}
+info: Jul-27-2021 10:21:31: 	Logger successfully connected
+info: Jul-27-2021 10:21:35: 	Database connection successful
+info: Jul-27-2021 10:21:35: 	Server Started on port 8000
+info: Jul-27-2021 10:22:50: 	Logger successfully connected
+info: Jul-27-2021 10:23:08: 	Database connection successful
+info: Jul-27-2021 10:23:08: 	Server Started on port 8000
+info: Jul-27-2021 10:23:34: 	Logger successfully connected
+info: Jul-27-2021 10:23:42: 	Database connection successful
+info: Jul-27-2021 10:23:42: 	Server Started on port 8000
+info: Jul-27-2021 10:24:03: 	User: jDoe  - Email: undefined, URL: /addReview/?reviewId=41224d776a326fb40f000003, IP: ::1 
+info: Jul-27-2021 10:24:03: 	This is the body of this request {"comment":"I really love the apartment!","images":["https://apartmentimage.com"],"video":"https://apartmentvideo.com","username":"jDoe","reviewId":"41224d776a326fb40f000003","iat":1627375759,"exp":1627462159}
+info: Jul-27-2021 10:24:03: 	This is the query of this request {"reviewId":"41224d776a326fb40f000003"}
+info: Jul-27-2021 10:28:32: 	Logger successfully connected
+info: Jul-27-2021 10:28:35: 	Database connection successful
+info: Jul-27-2021 10:28:35: 	Server Started on port 8000
+info: Jul-27-2021 10:29:54: 	Logger successfully connected
+info: Jul-27-2021 10:30:07: 	Database connection successful
+info: Jul-27-2021 10:30:07: 	Server Started on port 8000
+info: Jul-27-2021 10:30:58: 	User: jDoe  - Email: undefined, URL: /addReview/?reviewId=41224d776a326fb40f000003, IP: ::1 
+info: Jul-27-2021 10:30:58: 	This is the body of this request {"comment":"I really love the apartment!","images":["https://apartmentimage.com"],"video":"https://apartmentvideo.com","username":"jDoe","reviewId":"41224d776a326fb40f000003","iat":1627375759,"exp":1627462159}
+info: Jul-27-2021 10:30:58: 	This is the query of this request {"reviewId":"41224d776a326fb40f000003"}
+info: Jul-27-2021 10:31:26: 	User: jDoe  - Email: undefined, URL: /addReview/?reviewId=41224d776a326fb40f000003, IP: ::1 
+info: Jul-27-2021 10:31:26: 	This is the body of this request {"comment":"I really love the apartment!","images":["https://apartmentimage.com"],"video":"https://apartmentvideo.com","username":"jDoe","reviewId":"41224d776a326fb40f000003","iat":1627375759,"exp":1627462159}
+info: Jul-27-2021 10:31:26: 	This is the query of this request {"reviewId":"41224d776a326fb40f000003"}
+info: Jul-27-2021 10:33:08: 	Logger successfully connected
+info: Jul-27-2021 10:33:21: 	Database connection successful
+info: Jul-27-2021 10:33:21: 	Server Started on port 8000
+info: Jul-27-2021 10:35:01: 	Logger successfully connected
+info: Jul-27-2021 10:35:09: 	Database connection successful
+info: Jul-27-2021 10:35:09: 	Server Started on port 8000
+info: Jul-27-2021 10:35:13: 	User: jDoe  - Email: undefined, URL: /addReview/?reviewId=41224d776a326fb40f000003, IP: ::1 
+info: Jul-27-2021 10:35:13: 	This is the body of this request {"comment":"I really love the apartment!","images":["https://apartmentimage.com"],"video":"https://apartmentvideo.com","username":"jDoe","reviewId":"41224d776a326fb40f000003","iat":1627375759,"exp":1627462159}
+info: Jul-27-2021 10:35:13: 	This is the query of this request {"reviewId":"41224d776a326fb40f000003"}
+info: Jul-27-2021 10:36:12: 	Logger successfully connected
+info: Jul-27-2021 10:36:29: 	Database connection successful
+info: Jul-27-2021 10:36:29: 	Server Started on port 8000
+info: Jul-27-2021 10:36:35: 	User: jDoe  - Email: undefined, URL: /addReview/?reviewId=41224d776a326fb40f000003, IP: ::1 
+info: Jul-27-2021 10:36:35: 	This is the body of this request {"comment":"I really love the apartment!","images":["https://apartmentimage.com"],"video":"https://apartmentvideo.com","username":"jDoe","reviewId":"41224d776a326fb40f000003","iat":1627375759,"exp":1627462159}
+info: Jul-27-2021 10:36:35: 	This is the query of this request {"reviewId":"41224d776a326fb40f000003"}
+info: Jul-27-2021 10:37:19: 	Logger successfully connected
+info: Jul-27-2021 10:37:22: 	Database connection successful
+info: Jul-27-2021 10:37:22: 	Server Started on port 8000
+info: Jul-27-2021 10:37:27: 	User: jDoe  - Email: undefined, URL: /addReview/?reviewId=41224d776a326fb40f000003, IP: ::1 
+info: Jul-27-2021 10:37:27: 	This is the body of this request {"comment":"I really love the apartment!","images":["https://apartmentimage.com"],"video":"https://apartmentvideo.com","username":"jDoe","reviewId":"41224d776a326fb40f000003","iat":1627375759,"exp":1627462159}
+info: Jul-27-2021 10:37:27: 	This is the query of this request {"reviewId":"41224d776a326fb40f000003"}
+info: Jul-27-2021 10:37:55: 	Logger successfully connected
+info: Jul-27-2021 10:38:03: 	Database connection successful
+info: Jul-27-2021 10:38:03: 	Server Started on port 8000
+info: Jul-27-2021 10:38:09: 	User: jDoe  - Email: undefined, URL: /addReview/?reviewId=41224d776a326fb40f000003, IP: ::1 
+info: Jul-27-2021 10:38:09: 	This is the body of this request {"comment":"I really love the apartment!","images":["https://apartmentimage.com"],"video":"https://apartmentvideo.com","username":"jDoe","reviewId":"41224d776a326fb40f000003","iat":1627375759,"exp":1627462159}
+info: Jul-27-2021 10:38:09: 	This is the query of this request {"reviewId":"41224d776a326fb40f000003"}
+info: Jul-27-2021 10:46:01: 	Logger successfully connected
+info: Jul-27-2021 10:46:19: 	Database connection successful
+info: Jul-27-2021 10:46:19: 	Server Started on port 8000
+info: Jul-27-2021 10:46:25: 	User: jDoe  - Email: undefined, URL: /addReview/?reviewId=41224d776a326fb40f000003, IP: ::1 
+info: Jul-27-2021 10:46:25: 	This is the body of this request {"comment":"I really love the apartment!","images":["https://apartmentimage.com"],"video":"https://apartmentvideo.com","username":"jDoe","reviewId":"41224d776a326fb40f000003","iat":1627375759,"exp":1627462159}
+info: Jul-27-2021 10:46:25: 	This is the query of this request {"reviewId":"41224d776a326fb40f000003"}
+info: Jul-27-2021 10:47:52: 	Logger successfully connected
+info: Jul-27-2021 10:47:55: 	Database connection successful
+info: Jul-27-2021 10:47:55: 	Server Started on port 8000
+info: Jul-27-2021 10:48:07: 	User: jDoe  - Email: undefined, URL: /addReview/?reviewId=41224d776a326fb40f000003, IP: ::1 
+info: Jul-27-2021 10:48:07: 	This is the body of this request {"comment":"I really love the apartment!","images":["https://apartmentimage.com"],"video":"https://apartmentvideo.com","username":"jDoe","reviewId":"41224d776a326fb40f000003","iat":1627375759,"exp":1627462159}
+info: Jul-27-2021 10:48:07: 	This is the query of this request {"reviewId":"41224d776a326fb40f000003"}
+info: Jul-27-2021 10:49:09: 	Logger successfully connected
+info: Jul-27-2021 10:49:27: 	Database connection successful
+info: Jul-27-2021 10:49:27: 	Server Started on port 8000
+info: Jul-27-2021 10:50:46: 	Logger successfully connected
+info: Jul-27-2021 10:50:54: 	Database connection successful
+info: Jul-27-2021 10:50:54: 	Server Started on port 8000
+info: Jul-27-2021 10:52:45: 	Logger successfully connected
+info: Jul-27-2021 10:52:53: 	Database connection successful
+info: Jul-27-2021 10:52:53: 	Server Started on port 8000
+info: Jul-27-2021 10:56:24: 	Logger successfully connected
+info: Jul-27-2021 10:56:38: 	Database connection successful
+info: Jul-27-2021 10:56:38: 	Server Started on port 8000
+info: Jul-27-2021 10:58:26: 	Logger successfully connected
+info: Jul-27-2021 10:58:44: 	Database connection successful
+info: Jul-27-2021 10:58:44: 	Server Started on port 8000
+info: Jul-27-2021 10:58:47: 	200 - You are Logged In!. Username: jDoe
+info: Jul-27-2021 11:00:46: 	Logger successfully connected
+info: Jul-27-2021 11:00:49: 	Database connection successful
+info: Jul-27-2021 11:00:49: 	Server Started on port 8000
+info: Jul-27-2021 11:01:18: 	Logger successfully connected
+info: Jul-27-2021 11:01:20: 	Database connection successful
+info: Jul-27-2021 11:01:20: 	Server Started on port 8000
+info: Jul-27-2021 11:04:52: 	Logger successfully connected
+info: Jul-27-2021 11:05:11: 	Database connection successful
+info: Jul-27-2021 11:05:11: 	Server Started on port 8000
+info: Jul-27-2021 11:08:30: 	Logger successfully connected
+info: Jul-27-2021 11:08:53: 	Database connection successful
+info: Jul-27-2021 11:08:53: 	Server Started on port 8000
+error: Jul-27-2021 11:09:07: 	undefined: 403 Unauthorised
+error: Jul-27-2021 11:09:13: 	undefined: 403 Unauthorised
+info: Jul-27-2021 11:09:41: 	User: jDoe  - Email: johndoe@gmail.com, URL: /addReview, IP: ::1 
+info: Jul-27-2021 11:09:41: 	This is the body of this request {"comment":"I really love the apartment!","images":["https://apartmentimage.com"],"video":"https://apartmentvideo.com","reviewId":"41224d776a326fb40f000003","username":"jDoe","email":"johndoe@gmail.com","iat":1627379927,"exp":1627466327}
+info: Jul-27-2021 11:09:41: 	This is the query of this request {}
+info: Jul-27-2021 11:10:19: 	Logger successfully connected
+info: Jul-27-2021 11:10:24: 	Database connection successful
+info: Jul-27-2021 11:10:24: 	Server Started on port 8000
+info: Jul-27-2021 11:10:28: 	User: jDoe  - Email: johndoe@gmail.com, URL: /addReview, IP: ::1 
+info: Jul-27-2021 11:10:28: 	This is the body of this request {"comment":"I really love the apartment!","images":["https://apartmentimage.com"],"video":"https://apartmentvideo.com","reviewId":"41224d776a326fb40f000003","username":"jDoe","email":"johndoe@gmail.com","iat":1627379927,"exp":1627466327}
+info: Jul-27-2021 11:10:28: 	This is the query of this request {}
+info: Jul-27-2021 11:11:53: 	Logger successfully connected
+info: Jul-27-2021 11:12:11: 	Database connection successful
+info: Jul-27-2021 11:12:11: 	Server Started on port 8000
+info: Jul-27-2021 11:12:15: 	User: jDoe  - Email: johndoe@gmail.com, URL: /addReview, IP: ::1 
+info: Jul-27-2021 11:12:15: 	This is the body of this request {"comment":"I really love the apartment!","images":["https://apartmentimage.com"],"video":"https://apartmentvideo.com","reviewId":"41224d776a326fb40f000003","username":"jDoe","email":"johndoe@gmail.com","iat":1627379927,"exp":1627466327}
+info: Jul-27-2021 11:12:15: 	This is the query of this request {}
+info: Jul-27-2021 11:12:56: 	Logger successfully connected
+info: Jul-27-2021 11:13:14: 	Database connection successful
+info: Jul-27-2021 11:13:14: 	Server Started on port 8000
+info: Jul-27-2021 11:13:46: 	User: jDoe  - Email: johndoe@gmail.com, URL: /addReview, IP: ::1 
+info: Jul-27-2021 11:13:46: 	This is the body of this request {"comment":"I really love the apartment!","images":["https://apartmentimage.com"],"video":"https://apartmentvideo.com","reviewId":"41224d776a326fb40f000003","username":"jDoe","email":"johndoe@gmail.com","iat":1627379927,"exp":1627466327}
+info: Jul-27-2021 11:13:46: 	This is the query of this request {}
+info: Jul-27-2021 11:15:39: 	Logger successfully connected
+info: Jul-27-2021 11:15:42: 	Database connection successful
+info: Jul-27-2021 11:15:42: 	Server Started on port 8000
+info: Jul-27-2021 11:16:00: 	User: jDoe  - Email: johndoe@gmail.com, URL: /addReview, IP: ::1 
+info: Jul-27-2021 11:16:00: 	This is the body of this request {"comment":"I really love the apartment!","images":["https://apartmentimage.com"],"video":"https://apartmentvideo.com","reviewId":"41224d776a326fb40f000003","username":"jDoe","email":"johndoe@gmail.com","iat":1627379927,"exp":1627466327}
+info: Jul-27-2021 11:16:00: 	This is the query of this request {}
+info: Jul-27-2021 11:16:37: 	Logger successfully connected
+info: Jul-27-2021 11:16:55: 	Database connection successful
+info: Jul-27-2021 11:16:55: 	Server Started on port 8000
+info: Jul-27-2021 11:17:08: 	User: jDoe  - Email: johndoe@gmail.com, URL: /addReview, IP: ::1 
+info: Jul-27-2021 11:17:08: 	This is the body of this request {"comment":"I really love the apartment!","images":["https://apartmentimage.com"],"video":"https://apartmentvideo.com","reviewId":"41224d776a326fb40f000003","username":"jDoe","email":"johndoe@gmail.com","iat":1627379927,"exp":1627466327}
+info: Jul-27-2021 11:17:08: 	This is the query of this request {}
+info: Jul-27-2021 11:17:09: 	200 - Review Added. Username: jDoe [object Object]
+info: Jul-27-2021 11:18:36: 	Logger successfully connected
+info: Jul-27-2021 11:18:54: 	Database connection successful
+info: Jul-27-2021 11:18:54: 	Server Started on port 8000
+info: Jul-27-2021 11:19:00: 	User: jDoe  - Email: johndoe@gmail.com, URL: /addReview, IP: ::1 
+info: Jul-27-2021 11:19:00: 	This is the body of this request {"comment":"I really love the apartment!","images":["https://apartmentimage.com"],"video":"https://apartmentvideo.com","reviewId":"41224d776a326fb40f000003","username":"jDoe","email":"johndoe@gmail.com","iat":1627379927,"exp":1627466327}
+info: Jul-27-2021 11:19:00: 	This is the query of this request {}
+info: Jul-27-2021 11:19:00: 	200 - Review Added. Username: jDoe [object Object]
+info: Jul-27-2021 11:29:54: 	Logger successfully connected
+info: Jul-27-2021 11:29:58: 	Database connection successful
+info: Jul-27-2021 11:29:58: 	Server Started on port 8000
+info: Jul-27-2021 11:30:46: 	Logger successfully connected
+info: Jul-27-2021 11:30:49: 	Database connection successful
+info: Jul-27-2021 11:30:49: 	Server Started on port 8000
+info: Jul-27-2021 11:31:13: 	200 - Review created successfully.}
+info: Jul-27-2021 11:31:13: 	User to be registered - {"firstName":"John","lastName":"Doe","username":"jDoe","password":"test","email":"johndoe@gmail.com","reviewId":"41224d776a326fb40f000003"}. Username: jDoe
+info: Jul-27-2021 11:31:14: 	200 - User registered successfully. Username: jDoe
+info: Jul-27-2021 11:31:28: 	Logger successfully connected
+info: Jul-27-2021 11:31:31: 	Database connection successful
+info: Jul-27-2021 11:31:31: 	Server Started on port 8000
+info: Jul-27-2021 11:31:55: 	User: jDoe  - Email: johndoe@gmail.com, URL: /addReview, IP: ::1 
+info: Jul-27-2021 11:31:55: 	This is the body of this request {"comment":"I really love the apartment!","images":["https://apartmentimage.com"],"video":"https://apartmentvideo.com","reviewId":"41224d776a326fb40f000003","username":"jDoe","email":"johndoe@gmail.com","iat":1627379927,"exp":1627466327}
+info: Jul-27-2021 11:31:55: 	This is the query of this request {}
+info: Jul-27-2021 11:31:55: 	200 - Review Added. Username: jDoe [object Object]
+info: Jul-27-2021 12:14:19: 	Logger successfully connected
+info: Jul-27-2021 12:14:43: 	Database connection successful
+info: Jul-27-2021 12:14:43: 	Server Started on port 8000
+info: Jul-27-2021 12:21:51: 	Logger successfully connected
+info: Jul-27-2021 12:25:38: 	Logger successfully connected
+info: Jul-27-2021 12:25:41: 	Database connection successful
+info: Jul-27-2021 12:25:41: 	Server Started on port 8000
+info: Jul-27-2021 12:25:55: 	Logger successfully connected
+info: Jul-27-2021 12:26:00: 	Logger successfully connected
+info: Jul-27-2021 12:26:03: 	Database connection successful
+info: Jul-27-2021 12:26:03: 	Server Started on port 8000
+info: Jul-27-2021 12:27:07: 	Logger successfully connected
+info: Jul-27-2021 12:27:25: 	Database connection successful
+info: Jul-27-2021 12:27:25: 	Server Started on port 8000
+info: Jul-27-2021 12:29:47: 	Logger successfully connected
+info: Jul-27-2021 12:30:09: 	Database connection successful
+info: Jul-27-2021 12:30:09: 	Server Started on port 8000
+info: Jul-27-2021 12:32:24: 	Logger successfully connected
+info: Jul-27-2021 12:32:28: 	Database connection successful
+info: Jul-27-2021 12:32:28: 	Server Started on port 8000
+info: Jul-27-2021 12:33:11: 	Logger successfully connected
+info: Jul-27-2021 12:33:15: 	Database connection successful
+info: Jul-27-2021 12:33:15: 	Server Started on port 8000
+info: Jul-27-2021 12:36:03: 	Logger successfully connected
+info: Jul-27-2021 12:36:26: 	Database connection successful
+info: Jul-27-2021 12:36:26: 	Server Started on port 8000
