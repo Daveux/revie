@@ -1,6 +1,7 @@
 const Authentication = require("../middlewares/authentication");
 const authentication = new Authentication();
 const logger = require('../utils/logger');
+const mongoose = require("mongoose");
 
 const express = require("express"),
     router = express.Router(),
@@ -23,7 +24,6 @@ passport.use(
         if (!user.validPassword(password)) {
           return done(null, false);
         }
-        // TODO: Check the department
         return done(null, user);
       });
     })
@@ -48,15 +48,11 @@ router.get('/getAllUsers', async function(req, res) {
 router.post(
     "/register",
     async (req, res, next) => {
-
-
-    },
-    async (req, res, next) => {
-        let review =  await Review.create({
+        const review = new Review({
             _id: new mongoose.Types.ObjectId(),
             video: ""
-
         })
+        review.save()
             .then(() => {
                 logger.info(`200 - Review created successfully.`);
             })
@@ -64,15 +60,15 @@ router.post(
                 logger.error(`500 - Could not create review. `);
             })
       logger.info(`User to be registered - ${JSON.stringify(req.body.user)}. Username: ${req.body.user.username}`);
+        console.log("review", review);
         const { status, msg } = await authentication.createJWT({
             username: req.body.user.username,
             reviewId: review._id
         });
         if (status === 200) {
-            res.locals = msg;
-            next();
+            logger.info(`200 - JWT created successfully.`);
         } else {
-            return next({ status: 500, msg: "Bad" });
+            logger.error(`500 - Could not create JWT. `);
         }
       await User.register(
           new User({
@@ -117,7 +113,7 @@ router.post("/login", async (req, res, next) => {
       const { status, msg } = await authentication.createJWT({
         username: req.user.username,
         email: req.user.email,
-        reviewId: req.user.reviewId
+        reviewId: req.user.review
       });
       if (status === 200) {
         console.log("Logged in");

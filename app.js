@@ -27,14 +27,12 @@ app.use(async (req, res, next) => {
       req.url === "/login" ||
       req.url === "/register"
   ) {
-    console.log("log in or register")
     return next();
   }
   if (!req.headers.authorization && req.url !=="/addReview") {
     return next();
   }
   if (!req.headers.authorization  && req.url==="/addReview" ) {
-    console.log("illegal review")
     return next({ status: 403, msg: "Unauthorised" });
   } else {
     const { status, msg } = await authentication.verifyJWT(
@@ -84,15 +82,11 @@ app.use((error, req, res, next) => {
 mongoose
     .connect(DB_URL, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => {
-      console.log("Database connection successful");
       logger.info("Database connection successful")
       app.listen(PORT, () => {
-        console.log(`Server Started on port ${PORT}`);
         logger.info(`Server Started on port ${PORT}`)
       });
     })
     .catch((err) => {
-      console.log(err);
-      console.log("Database connection failed");
       logger.error(`Database connection failed - ${err}`)
     });

@@ -276,3 +276,86 @@ info: Jul-27-2021 14:03:46: 	Server Started on port 8000
 info: Jul-27-2021 14:04:44: 	Logger successfully connected
 info: Jul-27-2021 14:04:48: 	Database connection successful
 info: Jul-27-2021 14:04:48: 	Server Started on port 8000
+error: Jul-27-2021 14:10:36: 	undefined: 400 Bad
+info: Jul-27-2021 14:11:47: 	Logger successfully connected
+info: Jul-27-2021 14:11:50: 	Database connection successful
+info: Jul-27-2021 14:11:50: 	Server Started on port 8000
+error: Jul-27-2021 14:11:54: 	undefined: 400 Bad
+info: Jul-27-2021 14:20:24: 	Logger successfully connected
+info: Jul-27-2021 14:20:47: 	Database connection successful
+info: Jul-27-2021 14:20:47: 	Server Started on port 8000
+info: Jul-27-2021 14:23:45: 	Logger successfully connected
+info: Jul-27-2021 14:24:03: 	Database connection successful
+info: Jul-27-2021 14:24:03: 	Server Started on port 8000
+info: Jul-27-2021 14:24:42: 	Logger successfully connected
+info: Jul-27-2021 14:24:55: 	Database connection successful
+info: Jul-27-2021 14:24:55: 	Server Started on port 8000
+info: Jul-27-2021 14:25:10: 	200 - Review created successfully.
+info: Jul-27-2021 14:25:10: 	User to be registered - {"firstName":"David","lastName":"Odeyinka","username":"odeyz","password":"test","email":"dodeyinka@gmail.com"}. Username: odeyz
+info: Jul-27-2021 14:26:47: 	Logger successfully connected
+info: Jul-27-2021 14:26:56: 	Database connection successful
+info: Jul-27-2021 14:26:56: 	Server Started on port 8000
+info: Jul-27-2021 14:27:00: 	200 - Review created successfully.
+info: Jul-27-2021 14:27:00: 	User to be registered - {"firstName":"David","lastName":"Odeyinka","username":"odeyz","password":"test","email":"dodeyinka@gmail.com"}. Username: odeyz
+info: Jul-27-2021 14:31:13: 	Logger successfully connected
+info: Jul-27-2021 14:31:31: 	Database connection successful
+info: Jul-27-2021 14:31:31: 	Server Started on port 8000
+info: Jul-27-2021 14:31:36: 	User to be registered - {"firstName":"David","lastName":"Odeyinka","username":"odeyz","password":"test","email":"dodeyinka@gmail.com"}. Username: odeyz
+info: Jul-27-2021 14:31:36: 	200 - Review created successfully.
+info: Jul-27-2021 14:31:37: 	200 - User registered successfully. Username: odeyz
+error: Jul-27-2021 14:31:37: 	500 - Could not register user. Username: odeyz 
+info: Jul-27-2021 14:34:31: 	Logger successfully connected
+info: Jul-27-2021 14:34:50: 	Database connection successful
+info: Jul-27-2021 14:34:50: 	Server Started on port 8000
+info: Jul-27-2021 14:34:56: 	User to be registered - {"firstName":"David","lastName":"Odeyinka","username":"odeyz","password":"test","email":"dodeyinka@gmail.com"}. Username: odeyz
+info: Jul-27-2021 14:34:56: 	200 - JWT created successfully.
+info: Jul-27-2021 14:34:56: 	200 - Review created successfully.
+error: Jul-27-2021 14:34:57: 	500 - Could not register user. Username: odeyz 
+info: Jul-27-2021 14:36:08: 	Logger successfully connected
+info: Jul-27-2021 14:36:11: 	Logger successfully connected
+info: Jul-27-2021 14:36:24: 	Database connection successful
+info: Jul-27-2021 14:36:24: 	Server Started on port 8000
+info: Jul-27-2021 14:36:47: 	User to be registered - {"firstName":"David","lastName":"Odeyinka","username":"odeyz","password":"test","email":"dodeyinka@gmail.com"}. Username: odeyz
+info: Jul-27-2021 14:36:47: 	200 - JWT created successfully.
+info: Jul-27-2021 14:36:47: 	200 - Review created successfully.
+info: Jul-27-2021 14:36:48: 	200 - User registered successfully. Username: odeyz
+info: Jul-27-2021 14:37:26: 	User to be registered - {"firstName":"Daniel","lastName":"Odedele","username":"rexiel","password":"test","email":"rex@gmail.com"}. Username: rexiel
+info: Jul-27-2021 14:37:26: 	200 - JWT created successfully.
+info: Jul-27-2021 14:37:27: 	200 - Review created successfully.
+info: Jul-27-2021 14:37:27: 	200 - User registered successfully. Username: rexiel
+info: Jul-27-2021 14:41:30: 	User: jDoe  - Email: johndoe@gmail.com, URL: /addReview, IP: ::1 
+info: Jul-27-2021 14:41:30: 	This is the body of this request {"comment":"I really hate the apartment!","images":["https://apartmentimage.com"],"video":"https://apartmentvideo.com","reviewId":"41224d776a326fb40f000003","username":"jDoe","email":"johndoe@gmail.com","iat":1627379927,"exp":1627466327}
+info: Jul-27-2021 14:41:30: 	This is the query of this request {}
+info: Jul-27-2021 14:41:30: 	200 - Review Added. Username: jDoe [object Object]
+info: Jul-27-2021 14:42:40: 	200 - You are Logged In!. Username: odeyz
+info: Jul-27-2021 14:43:03: 	User: odeyz  - Email: dodeyinka@gmail.com, URL: /addReview, IP: ::1 
+info: Jul-27-2021 14:43:03: 	This is the body of this request {"comment":"I really love the apartment!","images":["https://apartmentimage.com"],"video":"https://apartmentvideo.com","username":"odeyz","email":"dodeyinka@gmail.com","iat":1627393360,"exp":1627479760}
+info: Jul-27-2021 14:43:03: 	This is the query of this request {}
+info: Jul-27-2021 14:43:03: 	200 - Review Added. Username: odeyz [object Object]
+info: Jul-27-2021 14:44:31: 	Logger successfully connected
+info: Jul-27-2021 14:44:53: 	Database connection successful
+info: Jul-27-2021 14:44:53: 	Server Started on port 8000
+info: Jul-27-2021 14:45:47: 	User: odeyz  - Email: dodeyinka@gmail.com, URL: /addReview, IP: ::1 
+info: Jul-27-2021 14:45:47: 	This is the body of this request {"comment":"I really love the apartment!","images":["https://apartmentimage.com"],"video":"https://apartmentvideo.com","username":"odeyz","email":"dodeyinka@gmail.com","iat":1627393360,"exp":1627479760}
+info: Jul-27-2021 14:45:47: 	This is the query of this request {}
+info: Jul-27-2021 14:45:47: 	200 - Review Added. Username: odeyz [object Object]
+info: Jul-27-2021 14:51:14: 	Logger successfully connected
+info: Jul-27-2021 14:51:17: 	Database connection successful
+info: Jul-27-2021 14:51:17: 	Server Started on port 8000
+info: Jul-27-2021 14:51:29: 	200 - You are Logged In!. Username: odeyz
+info: Jul-27-2021 14:53:03: 	Logger successfully connected
+info: Jul-27-2021 14:53:21: 	Database connection successful
+info: Jul-27-2021 14:53:21: 	Server Started on port 8000
+info: Jul-27-2021 14:53:40: 	User: odeyz  - Email: dodeyinka@gmail.com, URL: /addReview, IP: ::1 
+info: Jul-27-2021 14:53:40: 	This is the body of this request {"comment":"I really love the apartment!","images":["https://apartmentimage.com"],"video":"https://apartmentvideo.com","username":"odeyz","email":"dodeyinka@gmail.com","reviewId":"61000bef39b0e407af86befd","iat":1627393889,"exp":1627480289}
+info: Jul-27-2021 14:53:40: 	This is the query of this request {}
+info: Jul-27-2021 14:53:40: 	200 - Review Added. Username: odeyz [object Object]
+info: Jul-27-2021 14:54:14: 	Logger successfully connected
+info: Jul-27-2021 14:54:32: 	Database connection successful
+info: Jul-27-2021 14:54:32: 	Server Started on port 8000
+info: Jul-27-2021 14:54:55: 	200 - You are Logged In!. Username: rexiel
+info: Jul-27-2021 14:55:34: 	User: rexiel  - Email: rex@gmail.com, URL: /addReview, IP: ::1 
+info: Jul-27-2021 14:55:34: 	This is the body of this request {"comment":"I'm indifferent about the apartment!","images":["https://apartmentimage.com"],"video":"https://apartmentvideo.com","username":"rexiel","email":"rex@gmail.com","reviewId":"61000c1639b0e407af86bf03","iat":1627394095,"exp":1627480495}
+info: Jul-27-2021 14:55:34: 	This is the query of this request {}
+info: Jul-27-2021 14:55:34: 	200 - Review Added. Username: rexiel [object Object]
+info: Jul-27-2021 14:58:23: 	200 - Helpful count increased. Username: undefined
