@@ -1,4 +1,4 @@
-exports.PORT = 8000; //Set our port number
+exports.PORT = process.env.PORT || 8000; //Set our port number
 
 
 
